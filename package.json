@@ -1,0 +1,19 @@
+{
+  "name": "sso",
+  "version": "1.0.0",
+  "scripts": {
+    "start:sp": "node sp.js",
+    "start:idp": "node idp.js"
+  },
+  "keywords": [],
+  "author": "Mykyta Manuilenko",
+  "license": "ISC",
+  "dependencies": {
+    "@authenio/samlify-xsd-schema-validator": "^1.0.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "express": "^4.19.2",
+    "samlify": "^2.8.10"
+  }
+}
